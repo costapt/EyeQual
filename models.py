@@ -54,9 +54,6 @@ def micnn(nf, input_size=512, n_blocks=4):
             nfi = nf * 8
 
         xi = ConvBlock(xi, nfi, maxpool=True, norm=True)
-        # xi = ConvBlock(xi, nfi, k=1, s=1, maxpool=False)
-
-    # xi = ConvBlock(xi, nfi, k=1, s=1, maxpool=False)
     ###########################################################################
     #                           FINAL CLASSIFICATIONS                         #
     ###########################################################################
