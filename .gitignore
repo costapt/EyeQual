@@ -1,0 +1,13 @@
+data/
+.ipynb_checkpoints/
+*.pyc
+intermediate_results/
+diaretdb1_v_1_1/
+*.h5
+*.png
+Messidor/
+experiments/
+eoptha/
+messidor_cb/
+sacred_experiments/
+my_runs/
